@@ -1,0 +1,25 @@
+.container {
+  margin: 80px 40px auto 40px;
+  padding: 10px;
+  background-color: white;
+}
+
+.figure {
+  text-align: center;
+
+  img {
+    margin-top: $marge-top;
+    width: $image-size;
+    height: $image-size;
+    border-radius: $border-radius;
+  }
+
+  .user-cv {
+    font-weight: bold;
+  }
+}
+
+.split-line {
+  border: none;
+  border-bottom: 1px solid $gray-light;
+}
