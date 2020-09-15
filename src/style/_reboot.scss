@@ -6,6 +6,7 @@ html {
 }
 
 body {
+  display: flex;
   font-family: $font-family-base;
   color: $color-base;
   background-color: $body-bg;
