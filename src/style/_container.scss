@@ -29,7 +29,19 @@
 }
 
 .about-me {
+  margin-bottom: $about-marge-bottom;
   p {
     overflow-wrap: anywhere;
   }
+}
+
+.education-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $education-info;
+}
+
+.education-description {
+  width: 80%;
+  background-color: $gray-light;
 }
