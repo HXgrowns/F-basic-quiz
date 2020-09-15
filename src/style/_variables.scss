@@ -15,5 +15,7 @@ $link-color: $gray-dark !default;
 $link-hover-color: lighten($link-color, 15%) !default;
 
 $image-size: 100px;
-$marge-top: -50px;
+$img-marge-top: -50px;
 $border-radius: 100%;
+$container-marge: 80px 40px auto 40px;
+$container-padding: 0 20px 20px 20px;

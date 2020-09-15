@@ -1,6 +1,6 @@
 .container {
-  margin: 80px 40px auto 40px;
-  padding: 10px;
+  margin: $container-marge;
+  padding: $container-padding;
   background-color: white;
 }
 
@@ -8,7 +8,7 @@
   text-align: center;
 
   img {
-    margin-top: $marge-top;
+    margin-top: $img-marge-top;
     width: $image-size;
     height: $image-size;
     border-radius: $border-radius;
@@ -22,4 +22,14 @@
 .split-line {
   border: none;
   border-bottom: 1px solid $gray-light;
+}
+
+.section-title {
+  color: $primary-color;
+}
+
+.about-me {
+  p {
+    overflow-wrap: anywhere;
+  }
 }
