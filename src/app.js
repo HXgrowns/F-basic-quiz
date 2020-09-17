@@ -7,4 +7,5 @@ const renderHTML = () => {
   getEducationData();
 };
 
+// TODO feedback: 直接调用方法就可以
 window.onload = renderHTML();

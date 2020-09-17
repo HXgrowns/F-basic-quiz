@@ -15,6 +15,7 @@ $link-color: $gray-dark !default;
 $link-hover-color: lighten($link-color, 15%) !default;
 
 $image-size: 100px;
+// TODO feedback: 这个高度是图片高度$image-size的一半
 $img-marge-top: -50px;
 $border-radius: 100%;
 $container-marge: 100px 60px 20px 60px;

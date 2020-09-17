@@ -1,6 +1,7 @@
 export const renderUser = (data) => {
   const { name, age, avatar, description } = data;
   console.log(avatar);
+  // TODO feedback: id不符合命名规范
   document.getElementById("user_img").src = avatar;
   document.getElementById(
     "user_cv"
